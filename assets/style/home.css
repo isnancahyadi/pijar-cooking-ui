@@ -109,11 +109,6 @@ h2 {
   display: block;
 }
 
-/* @media (max-width: 575.98px) {
-  #logo-app {
-    visibility: hidden;
-  }
-} */
 #header {
   width: 100%;
   position: fixed;
@@ -137,18 +132,3 @@ footer {
   bottom: 0;
   z-index: 1;
 }
-
-/* nav ul {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    list-style: none;
-}
-
-nav ul li {
-    margin-right: 4rem;
-}
-
-nav ul li a {
-
-} */
