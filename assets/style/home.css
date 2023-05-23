@@ -81,6 +81,15 @@ hr {
   border-color: rgb(215, 154, 255);
 }
 
+.carousel-item {
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: rgb(153, 63, 212);
+  border-color: rgb(153, 63, 212);
+}
+
 .bg-purple-decoration-2 {
   height: 50px;
   width: 15px;
