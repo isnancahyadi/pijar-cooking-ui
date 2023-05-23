@@ -21,6 +21,10 @@ h2 {
   font-size: 2.5rem;
 }
 
+hr {
+  width: 50%;
+}
+
 #home,
 #recomended,
 #new-recipe,
@@ -30,8 +34,13 @@ h2 {
   padding-right: 4rem;
 }
 
+#home .row {
+  min-height: 100vh;
+}
+
 .search {
   position: relative;
+  width: 50%;
 }
 
 .icon {
@@ -118,6 +127,11 @@ h2 {
   z-index: 1000;
 }
 
+.text-new-recipe {
+  align-items: center;
+  justify-content: start;
+}
+
 footer {
   margin-top: 300px;
   height: 300px;
@@ -131,4 +145,65 @@ footer {
   position: absolute;
   bottom: 0;
   z-index: 1;
+}
+
+@media only screen and (max-width: 575px) {
+  html {
+    font-size: 50%;
+  }
+
+  hr {
+    width: 100%;
+  }
+
+  .bg-purple-decoration {
+    height: 60vh;
+  }
+
+  .menu-recipe,
+  .bg-purple-decoration-3 {
+    width: 350px;
+    height: 350px;
+  }
+
+  .bg-purple-decoration-3 {
+    top: calc(10%);
+    left: calc(5%);
+  }
+
+  .bg-purple-decoration-4 {
+    height: 50vh;
+    left: 0;
+    top: calc(30%);
+    z-index: -1;
+  }
+
+  #home .row {
+    min-height: 50%;
+  }
+
+  #home .main-title,
+  #recomended .recomended-title {
+    margin-top: 3rem;
+  }
+
+  #home .main-img {
+    margin-top: 12rem;
+  }
+
+  .new-recipe-title {
+    margin-bottom: 3rem;
+  }
+
+  .search {
+    width: 100%;
+  }
+
+  .text-new-recipe {
+    justify-content: center;
+  }
+
+  .btn-primary {
+    height: 25px;
+  }
 }
