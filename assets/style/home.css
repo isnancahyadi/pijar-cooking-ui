@@ -65,8 +65,8 @@ hr {
 
 .menu-recipe {
   border-radius: 20px;
-  width: 650px;
-  height: 650px;
+  width: 600px;
+  height: 600px;
   object-fit: cover;
   background-position: center;
   display: flex;
@@ -101,8 +101,8 @@ hr {
   background-color: rgba(255, 255, 255, 0);
   border: 3px solid rgb(215, 154, 255);
   border-radius: 20px;
-  height: 750px;
-  width: 750px;
+  height: 600px;
+  width: 600px;
   position: absolute;
   top: calc(17%);
   left: calc(7%);
